@@ -48,3 +48,5 @@ The code is licensed under the MIT license.
 
 
 1. The above commands will automatically create subfolders within the experiment directory, named according to the parameter file, environment number, and experiment number. Running the visualization script will generate videos for these experiments in the corresponding folders.
+
+https://github.com/user-attachments/assets/b3200179-b7d4-4b13-a39b-057bdac47013
