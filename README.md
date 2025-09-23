@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository contains code for the paper "Safe Guaranteed Dynamics Exploration with Probabilistic Models".
+This repository provides the implementation for the paper "Safe Guaranteed Dynamics Exploration with Probabilistic Models". We introduce **SageDynX**, an online and adaptive algorithm designed to handle tasks with uncertain dynamics in safety-critical environments. The method ensures both **optimality** and **safety** throughout execution while operating in a **non-episodic setting** with **a-priori unknown dynamics**.
 
 The code is licensed under the MIT license.
 
@@ -50,3 +50,5 @@ The code is licensed under the MIT license.
 1. The above commands will automatically create subfolders within the experiment directory, named according to the parameter file, environment number, and experiment number. Running the visualization script will generate videos for these experiments in the corresponding folders.
 
 https://github.com/user-attachments/assets/b3200179-b7d4-4b13-a39b-057bdac47013
+
+The video demonstrates the SageDynX algorithm in the drone navigation environment. The drone begins at the initial position (1,1) and aims to follow a heart-shaped reference trajectory while satisfying state constraints indicated by dashed red lines. The green line represents the optimal trajectory computed by a clairvoyant agent (known system dynamics). The dashed black line shows the agent’s trajectory using SageDynX. The thin multicolored lines illustrate predicted trajectories using different sampled dynamics starting from the drone’s position at different time steps, highlighted by cyan dots. SageDynX initially deviates from the optimal behavior, gathers informative data, and quickly converges towards close to optimal performance.
