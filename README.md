@@ -2,7 +2,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-This repository provides the implementation for the paper "Safe Guaranteed Dynamics Exploration with Probabilistic Models". We introduce **SageDynX**, an online and adaptive algorithm designed to handle tasks with uncertain dynamics in safety-critical environments. The method ensures both **optimality** and **safety** throughout execution while operating in a **non-episodic setting** with **a-priori unknown dynamics**.
+This repository provides the implementation for the paper "Safe Guaranteed Dynamics Exploration with Probabilistic Models". We introduce **SageDynX**, an online and adaptive algorithm designed to handle tasks with uncertain dynamics in safety-critical environments. The method guarantees both **optimality** and **safety** throughout execution while operating in a **non-episodic setting** with **a-priori unknown dynamics**.
 
 The code is licensed under the MIT license.
 
